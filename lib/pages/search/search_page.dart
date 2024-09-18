@@ -36,7 +36,7 @@ class _SearchPageState extends State<SearchPage> {
   void initState() {
     super.initState();
     _searchController.addListener(() {
-      setState(() {}); // Atualiza o estado para refletir mudanças no sufixIcon
+      setState(() {});
     });
   }
 
@@ -91,7 +91,7 @@ class _SearchPageState extends State<SearchPage> {
                         return MovieSearch(
                           movie: _filteredMovies[index],
                           onTap: () {
-                            // Navegar para a página de detalhes do filme
+                            
                           },
                         );
                       },
