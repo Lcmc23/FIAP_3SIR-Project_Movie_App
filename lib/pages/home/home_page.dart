@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
     nowPlaying = apiServices.getNowPlayingMovies();
     upcoming = apiServices.getUpcomingMovies();
     jaMovies = apiServices
-        .getjaMovies(); // Adicionando a busca de filmes para crianças
+        .getjaMovies();
     super.initState();
   }
 
