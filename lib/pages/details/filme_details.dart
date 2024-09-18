@@ -21,7 +21,7 @@ class FilmeDetailsPage extends StatelessWidget {
               Center(
                 child: Image.network(
                   'https://image.tmdb.org/t/p/w200/${movie.posterPath}',
-                  height: 150, // Tamanho pequeno da imagem
+                  height: 150,
                   fit: BoxFit.cover,
                 ),
               ),
